@@ -1,0 +1,78 @@
+/*Tipografia, color y demas decoración solo de texto*/
+.menu, .bicicleta__readmore, .formulario_globo__content__form  {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: medium;
+    opacity: 1;
+    font: normal normal medium 16px/21px 'Roboto';
+    text-align: left;
+}
+
+.bicicleta__p1, .recuadro-naranja__p3, .formulario_globo__content__form, .formulario_globo__content__form__contact, .bicicleta__readmore, button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: medium;
+    opacity: 1;
+    font: normal normal medium 16px/21px 'Roboto' sans-serif;
+    text-align: left;
+    letter-spacing: .22px;
+}
+.section2__p2, .recuadro-naranja__p4, #acordeon, .pie-pagina__p5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 1;
+    font: normal normal normal 16px/28px 'Roboto';
+    text-align: left;
+    letter-spacing: .22px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    font: normal normal 600 48px/48px 'Poppins';
+    opacity: 1;
+    text-align: left;
+    letter-spacing: .67px;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+    font: normal normal 600 39px/45px 'Poppins';
+    opacity: 1;
+    color: #343434;
+    text-align: left;
+    letter-spacing: .55px;
+    display: inline-block;
+    width: 35%;
+}
+span{
+    color: #E0752F;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+    font-weight: medium;
+    font: normal normal medium 39px/59px 'Poppins';
+    opacity: 1;
+    text-align: left;
+    letter-spacing: .55px;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+    font: normal normal 600 39px/45px 'Poppins';
+    opacity: 1;
+    color: #343434;
+    text-align: left;
+    letter-spacing: .55px;
+}
+.pie-pagina__p5{
+    color: #DCE1DA;
+}

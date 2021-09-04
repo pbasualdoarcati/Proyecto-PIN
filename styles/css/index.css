@@ -1,0 +1,314 @@
+@charset "UTF-8";
+.bicicleta {
+  border-top: 1px solid #E0752F;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+#primera-hoja {
+  font-size: 16px;
+}
+#primera-hoja h1 {
+  font-size: 48px;
+}
+
+.bicicleta__readmore {
+  background-color: #E0752F;
+  border-color: #E0752F;
+  border-radius: 60px;
+  width: 10%;
+  padding: 9px;
+  padding-left: 15px;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 695px;
+  padding-right: 5%;
+  padding-left: 3%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  width: 695px;
+  justify-content: space-evenly;
+}
+
+.section1 {
+  background-image: url(../../images/bicicleta1.png);
+  background-repeat: round;
+  background-size: cover;
+  margin: -7px;
+}
+
+p {
+  color: #fff;
+}
+
+.section2 {
+  background-color: #fff;
+  height: 672px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-left: -7px;
+  margin-right: -7px;
+}
+.section2 .section2__container {
+  border-color: #E0752F;
+  border-style: solid;
+  border-left-width: 32px;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section2 .section2__titulo {
+  width: 51%;
+  font-size: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.section2 .section2__titulo span {
+  color: #E0752F;
+}
+.section2 .section2__p2 {
+  display: flex;
+  font-size: 16px;
+  width: 70%;
+  padding-left: 20%;
+  padding-top: 4%;
+}
+
+.section3 {
+  height: 768px;
+  margin-left: -7px;
+  margin-right: -7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #f2f4f1 75%, #dce1da 25%);
+}
+.section3 .section3_1 {
+  display: flex;
+  background-image: url(../../images/casa-lago.png);
+  height: 552px;
+  width: 966px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.section3 .section3_1 .recuadro-naranja {
+  background-color: #E0752F;
+  width: 471px;
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .section3_1 .recuadro-naranja p {
+  width: 372px;
+  font-size: 16px;
+}
+.section3 .section3_1 .recuadro-naranja p span {
+  font-size: 36px;
+  color: #fff;
+}
+
+.section4 {
+  height: 768px;
+  margin-left: -7px;
+  margin-right: -7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section4 .section4_corredor {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
+.section4 .section4_acordion {
+  position: absolute;
+  border: 1px solid #E3E3E3;
+  width: 50%;
+  margin-left: 10%;
+  background-color: #f8f8f8;
+}
+
+.pie-pagina {
+  background-color: #343434;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.formulario_globo__form {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right, #f2f4f1 75%, #dce1da 25%);
+  align-items: center;
+  justify-content: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+.formulario_globo__form .formulario_globo__content__h4 {
+  width: 55%;
+}
+.formulario_globo__form .formulario_globo__content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-around;
+  height: 74vh;
+}
+.formulario_globo__form .formulario_globo__content__form {
+  height: 54vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.formulario_globo__form .formulario_globo__content__form__name, .formulario_globo__form .formulario_globo__content__form__phone, .formulario_globo__form .formulario_globo__content__form__email, .formulario_globo__form .formulario_globo__content__form__message {
+  display: flex;
+  flex-direction: column;
+}
+.formulario_globo__form input, .formulario_globo__form textarea {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid grey;
+}
+.formulario_globo__form button {
+  background-color: #E0752F;
+  border-color: #E0752F;
+  border-radius: 60px;
+  width: 29%;
+  margin-top: 6%;
+}
+
+/*Tipografia, color y demas decoración solo de texto*/
+.menu, .bicicleta__readmore, .formulario_globo__content__form {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: medium;
+  opacity: 1;
+  font: normal normal medium 16px/21px "Roboto";
+  text-align: left;
+}
+
+.bicicleta__p1, .recuadro-naranja__p3, .formulario_globo__content__form, .formulario_globo__content__form__contact, .bicicleta__readmore, button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: medium;
+  opacity: 1;
+  font: normal normal medium 16px/21px "Roboto" sans-serif;
+  text-align: left;
+  letter-spacing: 0.22px;
+}
+
+.section2__p2, .recuadro-naranja__p4, #acordeon, .pie-pagina__p5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 1;
+  font: normal normal normal 16px/28px "Roboto";
+  text-align: left;
+  letter-spacing: 0.22px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  font: normal normal 600 48px/48px "Poppins";
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 0.67px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  font: normal normal 600 39px/45px "Poppins";
+  opacity: 1;
+  color: #343434;
+  text-align: left;
+  letter-spacing: 0.55px;
+  display: inline-block;
+  width: 35%;
+}
+
+span {
+  color: #E0752F;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  font-weight: medium;
+  font: normal normal medium 39px/59px "Poppins";
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 0.55px;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  font: normal normal 600 39px/45px "Poppins";
+  opacity: 1;
+  color: #343434;
+  text-align: left;
+  letter-spacing: 0.55px;
+}
+
+.pie-pagina__p5 {
+  color: #DCE1DA;
+}
+
+* {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=index.css.map */

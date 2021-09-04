@@ -1,0 +1,37 @@
+.section3{
+    height: 768px;
+    margin-left: -7px;
+    margin-right: -7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #f2f4f1 75%, #dce1da 25%);
+    .section3_1{
+            display: flex;
+            background-image: url(../../images/casa-lago.png);
+            height: 552px;
+            width: 966px;
+            align-items: flex-end;
+            justify-content: flex-end;
+            .recuadro-naranja{
+                background-color: $color-naranja;
+                width: 471px;
+                height: 304px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                p {
+                    width: 372px;
+                    font-size: 16px;
+                    span{
+                        font-size: 36px;
+                        color: $color-texto;
+                    }
+                }
+            }
+        }
+    }
+
+        
+

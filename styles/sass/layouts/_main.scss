@@ -1,0 +1,24 @@
+
+.bicicleta {
+    border-top: 1px solid $color-naranja;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+#primera-hoja{
+    font-size: 16px;
+    h1{
+        font-size: 48px;
+    }
+}
+.bicicleta__readmore{
+    background-color: $color-naranja;
+    border-color: $color-naranja;
+    border-radius: 60px;
+    width: 10%;
+    padding: 9px;
+    padding-left: 15px;
+    color: $color-texto;
+}
