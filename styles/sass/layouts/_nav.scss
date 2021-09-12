@@ -1,28 +1,17 @@
-nav a {
-    color:$color-texto;
-    text-decoration: none;
-}
-h1{
-    color:$color-texto
-}
-.container {
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    justify-content: space-between;
-    padding-left: 10%;
-    padding-top: 1%;
-}
-nav{
-    display: flex;
-    flex-direction: column;
-    width: 695px;
-    padding-right: 5%;
-    padding-left: 3%;
-}
-ul{
-    display: flex;
-    flex-direction: row;
-    width: 695px;
-    justify-content: space-evenly;
+.contenedor-menu{
+    border-bottom: 1px solid $color-naranja;
+    padding-left: 8%;
+    .nav_menu{
+        display: flex;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        .nav_menu_link{
+            padding-right: 15%;
+            .fuente_menu{
+                padding-right: 8%;
+            }
+        }
+
+    }
+    
 }

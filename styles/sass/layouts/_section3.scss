@@ -1,37 +1,49 @@
 .section3{
-    height: 768px;
-    margin-left: -7px;
-    margin-right: -7px;
+    width: 87.3rem;
+    height: 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right, #f2f4f1 75%, #dce1da 25%);
-    .section3_1{
-            display: flex;
-            background-image: url(../../images/casa-lago.png);
-            height: 552px;
-            width: 966px;
-            align-items: flex-end;
-            justify-content: flex-end;
-            .recuadro-naranja{
-                background-color: $color-naranja;
-                width: 471px;
-                height: 304px;
+    .section3__casa{
+        background: url("/images/casa-lago.png");
+        height: 34.5rem;
+        width: 60.3rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        .section3__recuardoNaranja{
+            background-color: $color-naranja;
+            width: 29.5rem;
+            height: 19rem;
+            .section3_carousel{
                 display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                p {
-                    width: 372px;
-                    font-size: 16px;
-                    span{
-                        font-size: 36px;
-                        color: $color-texto;
-                    }
+                .section3_carousel_texto{
+                    display: flex;
+                    width: 101%;
+                    padding: 13.5%
                 }
+            .section3_botones{
+                display: flex;
+                .section3_botones1{
+                    display: flex;
+                    width: 8%;
+                    height: 90%;
+                    align-items: flex-end;
+                    margin-left: 72%;
+                }
+                .section3_botones2{
+                    display: flex;
+                    width: 10%;
+                    height: 90%;
+                    align-items: flex-end;
+                    margin-right: 9%;
+                }
+            }
             }
         }
     }
+}
 
         
 

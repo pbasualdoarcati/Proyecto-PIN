@@ -1,21 +1,19 @@
-$btn-focus-box-shadow: #F8F8F8;
-$color-texto: #fff;
-$color-naranja: #E0752F;
-$color-fondo: #343434;
-$accordion-icon-color: $color-naranja;
-$accordion-icon-active-color: $color-naranja;
+@import "layouts/variables";
 @import "layouts/main";
 @import "layouts/nav";
-@import "layouts/section1";
 @import "layouts/section2";
 @import "layouts/section3";
 @import "layouts/section4";
+@import "layouts/section5";
 @import "layouts/footer";
 @import "layouts/typo";
-
+@import "../bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 *{
     list-style: none;
 }
 html{
     scroll-behavior: smooth;
 }
+

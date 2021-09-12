@@ -4,161 +4,232 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/node_modules/bootstrap/css/bootstrap.min.css">
+    <script src="/styles/bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/css/index.css">
-    <script src="/node_modules/bootstrap/js/bootstrap.min.js"></script>
-    <title>Document</title>
+    <title>25 Watts</title>
 </head>
 <body>
-    <div class="section1">
-        <!-- Encabezado -->
-        <header class="container">
-            <div class="top-logo">
-                <img src="./images/top-logo.png" alt="Logo 25 WATTS">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="menu" id="home">Home</a></li>
-                    <li><a href="#section2" class="menu" id="about">About</a></li>
-                    <li><a href="#casa-lago" class="menu" id="products">Products</a></li>
-                    <li><a href="#acordeon" class="menu" id="services">Services</a></li>
-                    <li><a href="#formulario" class="menu" id="contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Cuerpo central separado por principal y secundario-->
+    <div class="principal">
+        <div class="contenedor-menu">
+            <header>
+                <!--Nav Bar-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent nav_menu" >
+                    <div class="container-fluid top_logo">
+                        <img src="/images/top-logo.png" alt="Logo top 25 Watts " class="d-inline-block align-text-top">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav_menu_link" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item fuente_menu">
+                                <a href="#" class="nav-link active" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item fuente_menu">
+                                <a href="#about" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item fuente_menu">
+                                <a href="#products" class="nav-link">Products</a>
+                            </li>
+                            <li class="nav-item fuente_menu">
+                                <a href="#corredor" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item fuente_menu">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <!--Fondo de bicicleta - Carrusel-->
         <main>
-            <section class="bicicleta">
-                <article id="primera-hoja">
-                    <div class="bicicleta__titulo1">
-                        <h1>
-                            Sed ut perspiciatis <br> unde omnis iste natus
-                        </h1>
+            <div class="container_carousel container-fluid">
+                <div id="primer_carousel" class="carousel slide container_internal" data-bs-ride="carousel">
+                    <div class="carousel-indicators botones_carousel">
+                        <button type="button" data-bs-target="#primer_carousel" data-bs-slide-to="0" class="active carousel_boton"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#primer_carousel" data-bs-slide-to="1" aria-label="Slide 2"
+                            class="carousel_boton"></button>
+                        <button type="button" data-bs-target="#primer_carousel" data-bs-slide-to="2" aria-label="Slide 3"
+                            class="carousel_boton"></button>
                     </div>
-                    <div class="bicicleta__parrafo1">
-                        <p class="bicilceta__p1">
-                            Sed ut perspiciatis unde omnis iste natus <br> sit voluptatem acusantium doloremque
-                        </p>
+                    <div class="carousel-inner container_internal_primero container-fluid">
+                        <div class="carousel-item active">
+                            <div class="texto1">
+                                <h1 class="titulo_carousel">Sed ut perspiciatis unde omnis iste natus</h1>
+                                <p class="texto_carousel">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque.</p>
+                                <button type="button" class="readmore">Readmore</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="texto1">
+                                <h1 class="titulo_carousel">Sed ut perspiciatis unde omnis iste natus</h1>
+                                <p class="texto_carousel">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque.
+                                <p>
+                                    <button type="button" class="readmore">Readmore</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="texto1">
+                                <h1 class="titulo_carousel">Sed ut perspiciatis unde omnis iste natus</h1>
+                                <p class="texto_carousel">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque. Lor</p>
+                                <button type="button" class="readmore">Readmore</button>
+                            </div>
+                        </div>
                     </div>
-                </article>
-                <button type="submit" class="bicicleta__readmore btn">Read more</button>
-            </section>
+                </div>
+            </div>
         </main>
+        
     </div>
-    <div class="section2">
-        <section class="section2__container">
-            <article class="section2__section2" id="section2">
-                <h2 class="section2__titulo">We Help Businesses<span>Grow and Innovate</span></h2>
-                <div class="section2__p2">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam numquam sequi alias sed. Ullam rerum
-                    omnis modi voluptate nam, repellendus doloremque enim maxime, beatae consequatur ea praesentium placeat
-                    commodi. Maxime! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor laborum maiores id
-                    accusamus eum vitae eaque, obcaecati similique sunt, modi reprehenderit animi exercitationem ullam
-                    beatae dolore ratione autem facilis optio!
-                </div>
-            </article>
-        </section>
-    </div>
+
     <aside>
-        <!--Imagen de la casa con " NEMO ENIM ETC" y el menu acordeon-->
-        <!--Imagen de la casa con " NEMO ENIM ETC" y el menu acordeon-->
-        <!-- Cambiar la clase y ponerle secion3-->
-        <section class="section3" id="casa-lago">
-            <article class="section3_1">
-                <div class="recuadro-naranja">
-                    <p class="recuadro-naranja__p3">Sed ut perspiciatis <br><span>Nemo Enim</span></p>
-                    <p class="recuadro-naranja__p4">Sed ur perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+        <!--Dos textos y un Border Left Naranja-->
+        <article class="section2 container-fluid" id="about">
+            <section class="section2__container">
+                <div class="section2__container__texto">
+                    <h2 class="section2__titulo">We Help Businesses <span>Grow and Innovate</span></h2>
+                    <p class="section2__texto container-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+                    elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                    accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
                 </div>
-            </article>
-        </section>
-        <section>
-            <!-- Acordeon-->
-            <article class="section4" id="acordeon">
+            </section>
+        </article>
+        <!--Background degree, cuadrado en el centro con imagen y rectangulo buttom right con carrusel-->
+        <article class="section3 container-fluid" id="products">
+            <div class="section3__casa">
+                <div class="section3__recuardoNaranja">
+                    <div id="segundo_carousel" class="carousel slide section3_carousel" data-bs-ride="carousel">
+                        <div class="carousel-inner section3_carousel_texto">
+                            <div class="carousel-item active">
+                                <p class="segundo_carousel_texto1">Sed ut perspiciatis.</p>
+                                <h3 class="segundo_carousel_titulo">Nemo Enim</h3>
+                                <p class="segundo_carousel_texto2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="segundo_carousel_texto1">Sed ut perspiciatis.</p>
+                                <h3 class="segundo_carousel_titulo">Nemo Enim</h3>
+                                <p class="segundo_carousel_texto2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <p class="segundo_carousel_texto1">Sed ut perspiciatis.</p>
+                                <h3 class="segundo_carousel_titulo">Nemo Enim</h3>
+                                <p class="segundo_carousel_texto2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                            </div>
+                        </div>
+                        <div class="section3_botones">
+                            <button class="carousel-control-prev section3_botones1" type="button" data-bs-target="#segundo_carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next section3_botones2" type="button" data-bs-target="#segundo_carousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!--Acordeon con corredor de background left-->
+        <article class="section4_acordion_container" id="corredor">
                 <div class="section4_acordion">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion accordion-flush section4_acordion_texto" id="accordionCorredor">
                         <div class="accordion-item">
                             <h4 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed accordion_titulo" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 </button>
                             </h4>
                             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit aperiam, consectetur quos exercitationem totam ipsam illum fugit quibusdam culpa quidem rerum tempore vero molestiae omnis maiores quo? Sed, ea!
+                                data-bs-parent="#accordionCorredor">
+                                <div class="accordion-body accordion_texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla suscipit
+                                    aperiam, consectetur quos exercitationem totam ipsam illum fugit quibusdam culpa quidem rerum
+                                    tempore vero molestiae omnis maiores quo? Sed, ea!
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h4 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed accordion_titulo" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 </button>
                             </h4>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere ea quaerat tempora ratione veniam, vero odio illo assumenda, quia molestias. Nobis soluta nesciunt quis odit quidem similique sunt vitae.
+                                data-bs-parent="#accordionCorredor">
+                                <div class="accordion-body accordion_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere ea
+                                    quaerat tempora ratione veniam, vero odio illo assumenda, quia molestias. Nobis soluta nesciunt
+                                    quis odit quidem similique sunt vitae.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h4 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button collapsed accordion_titulo" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 </button>
                             </h4>
                             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam error incidunt a facilis animi, ratione tempore atque beatae officia quos doloremque unde dignissimos, distinctio maxime, voluptas excepturi similique eaque est.
+                                data-bs-parent="#accordionCorredor">
+                                <div class="accordion-body accordion_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam error
+                                    incidunt a facilis animi, ratione tempore atque beatae officia quos doloremque unde dignissimos,
+                                    distinctio maxime, voluptas excepturi similique eaque est.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="section4_corredor"><img src="./images/Corredor.png" alt="Corredor"></div>
-                <div class="section4_acordeon_container"></div>
-            </article>
-        </section>
+        </article>
+        <!--Formulario e Imagen-->
+            <div class="formulario_globo">
+                <div class="formulario_globo__form" id="contact">
+                    <div class="formulario_globo__content">
+                        <h4 class="formulario_globo__content__h4">Get in touch <span>We are hiring!</span></h4>
+                        <div id="formulario" class="formulario_globo__content__form">
+                            <form class="formulario_globo__content__form__contact" action="contacto.php" method="POST">
+                                <div class="formulario_globo__content__form__name">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" class="formulario_globo__content__input" required>
+                                </div>
+                                <div class="formulario_globo__content__form__email">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" class="formulario_globo__content__input" required>
+                                </div>
+                                <div class="formulario_globo__content__form__phone">
+                                    <label for="phone">Phone</label>
+                                    <input type="number" name="phone" id="phone" class="formulario_globo__content__input" required>
+                                </div>
+                                <div class="formulario_globo__content__form__message">
+                                    <label for="message">Message</label>
+                                    <textarea class="formulario_globo__content__textarea" id="message"></textarea>
+                                </div>
+                                <div class="formulario_globo__content__boton">
+                                    <button type="button" class="button_send">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="formulario_globo__imagen-contacto">
+                        <img src="./images/contact.png" alt="contacto">
+                    </div>
+                </div>
+            </div>
     </aside>
 <!-- Pie de pagina aca deberia ir el formulario-->
     <footer>
-        <div class="formulario_globo">
-            <div class="formulario_globo__form" id="contact">
-                <div class="formulario_globo__content">
-                    <h4 class="formulario_globo__content__h4">Get in touch <span>We are hiring!</span></h4>
-                    <div id="formulario" class="formulario_globo__content__form">
-                        <form class="formulario_globo__content__form__contact"action="contacto.php" method="POST">
-                            <div class="formulario_globo__content__form__name">
-                                <label for="name">Name</label>
-                                <input type="text" name="name" id="name" class="formulario_globo__content__input" required>
-                            </div>
-                            <div class="formulario_globo__content__form__email">
-                                <label for="email">Email</label>
-                                <input type="email" name="email" id="email" class="formulario_globo__content__input" required>
-                            </div>
-                            <div class="formulario_globo__content__form__phone">
-                                <label for="phone">Phone</label>
-                                <input type="number" name="phone" id="phone" class="formulario_globo__content__input" required>
-                            </div>
-                            <div class="formulario_globo__content__form__message">
-                                <label for="message">Message</label>
-                                <textarea class="formulario_globo__content__textarea" id="message"></textarea>
-                            </div>
-                            <div class="formulario_globo__content__boton">
-                                <button type="submit" class="btn btn-primary">Send</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="formulario_globo__imagen-contacto">
-                    <img src="./images/contact.png" alt="contacto">
-                </div>
-            </div>
-        </div>
         <div class="pie-pagina">
             <p class="pie-pagina__p5"><sup>2020 © All rights reserved</sup></p>
             <div class="footer_logo">

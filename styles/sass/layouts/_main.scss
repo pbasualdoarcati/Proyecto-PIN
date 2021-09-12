@@ -1,24 +1,84 @@
-
-.bicicleta {
-    border-top: 1px solid $color-naranja;
-    height: 100vh;
+.principal{
+    background: url(/images/bicicleta.png);
+    background-size: cover;
+    background-repeat:space;
+    background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 10%;
-}
-#primera-hoja{
-    font-size: 16px;
-    h1{
-        font-size: 48px;
+    .top_logo{
+        display: flex;
+        width: 90%;
     }
-}
-.bicicleta__readmore{
-    background-color: $color-naranja;
-    border-color: $color-naranja;
-    border-radius: 60px;
-    width: 10%;
-    padding: 9px;
-    padding-left: 15px;
-    color: $color-texto;
+    .container_carousel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        width: 86vw;
+        height: 91vh;
+        .container_internal{
+            display: flex;
+            bottom: 10%;
+            right: 5%;
+        }
+        .container_internal_primero{
+            display: flex;
+        }
+        .container_internal_segundo{
+            display: flex;
+        }
+        .texto1{
+            display: flex;
+            flex-direction: column;
+        }
+        .readmore{
+            background-color: $color-naranja;
+            color: $color-texto;
+            border-radius: 1.5rem;
+            border-style: none;
+            padding: 1%;
+            width: 6rem;
+            text-align: center;
+        }
+        .botones_carousel{
+            display: flex;
+            flex-direction: row;
+            margin:0;
+            justify-content: flex-start;
+            position: relative;
+            top: 22rem;
+            left: 2rem;
+            @media (max-width: 1280px){
+                margin-top:10%;
+            }
+            @media (max-width: 768px){
+                margin-top:25%;
+            }   
+        
+            .carousel_boton{
+                border-radius: 50%;
+            }
+        }
+        .titulo_carousel{
+            width: 52%;
+            @media (max-width:1024px){
+                width: 90%;
+            }
+            @media (max-width:768px){
+                width: 100%;
+            }
+        }
+        .texto_carousel{
+            padding-top: 4%;
+            padding-bottom: 2%;
+            width: 33%;
+            color: $color-texto;
+            @media (max-width: 1024px){
+                width: 50%;
+            }
+            @media (max-width:768px){
+                width: 75%;
+            }
+        }
+    }
 }
